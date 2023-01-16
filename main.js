@@ -28,13 +28,26 @@ Six.setAttribute('id', 'bigTitle');
 let Seven = document.querySelector('div');
 Seven.setAttribute('class', 'container');
 // ### 8. Rajoute l'attribut class a la div avec comme valeur "title"
-let Eight = document.querySelectorAll('div')[1];
+let huit = document.querySelectorAll('div')[1];
 Eight.setAttribute('class', 'title');
 // ### 8. Aux h2 ajoute avec l'aide d'un foreach l'attribut class avec comme valeur "title"
+let h2elem = document.querySelectorAll('h2');
+h2elem.forEach(h2 => {
+    h2.classList.add("title");
+});
 // ### 9. Aux p ajoute avec l'aide d'un foreach l'attribut class avec comme valeur "text"
-
+let neuf = document.querySelectorAll('p');
+ptext.forEach(p => {
+    p.classList.add("text");
+});
 
 // ## Partie 2.2 Ajout d'attribut et de leurs valeurs
 // ### 10. Dans la première section ajoute l'attribut class et les class suivantes : margin-bottom border-black padding
+let Dix = document.querySelector('section');
+Nine.setAttribute('class','margin-bottom border-black padding');
 // ### 11. Dans la seconde section ajoute l'attribut class et les class suivantes : margin-top border-black padding
+let Onze = document.querySelectorAll('section')[1];
+Ten.setAttribute('class','margin-top border-black padding');
 // ### 12. Dans la div ayant comme parent une section, ajoute l'attribut style et fait en sorte qu'il ait un fond bleu, une bordure de ton choix, une hauteur de 20px et une largueur de 20px
+let Douze = document.querySelector('div')[2];
+Eleven.setAttribute('style','color:blue;background-color:yellow;height:20px;width:20px;');
